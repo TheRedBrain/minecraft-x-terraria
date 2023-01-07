@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "minecraftxterraria",
+  "version": "0.0.1",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Minecraft X Terraria",
+  "description": "This mod tries to recreate Terraria in Minecraft.",
   "authors": [
-    "Me!"
+    "TheRedBrain"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/TheRedBrain/minecraft-x-terraria"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/minecraftxterraria/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.github.theredbrain.minecraftxterraria.MinecraftXTerraria"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "minecraftxterraria.mixins.json"
   ],
 
   "depends": {
