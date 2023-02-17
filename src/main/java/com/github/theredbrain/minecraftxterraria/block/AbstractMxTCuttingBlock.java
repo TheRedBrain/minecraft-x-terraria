@@ -6,8 +6,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class AbstractMxTCuttingBlock extends AbstractMxTBlock {
-    public AbstractMxTCuttingBlock(Settings settings) {
-        super(settings);
+    public AbstractMxTCuttingBlock(Settings settings, int hitPoints) {
+        super(settings, hitPoints);
     }
 
     @Override
